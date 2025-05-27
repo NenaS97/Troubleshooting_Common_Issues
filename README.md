@@ -125,3 +125,13 @@ A minimal custom CSS file was developed to enhance the look and feel of the HTML
 - **GitHub-Ready**: Organized output for static preview or GitHub Pages hosting.
 
 ---
+
+## View the Live Site
+
+You can view the live HTML version of this guide at:
+
+👉 **[https://nenas97.github.io/Troubleshooting_Common_Issues/]**
+
+The site is automatically generated from the contents of the `docs/` folder using GitHub Pages.
+
+---
