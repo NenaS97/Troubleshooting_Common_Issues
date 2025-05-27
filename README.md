@@ -1,6 +1,6 @@
-# Troubleshooting Common Issues – A DITA-Based Project
+# Troubleshooting Common Issues
 
-This project is a structured DITA-based documentation set that delivers solutions for common technical issues users frequently encounter. It showcases custom topic specialization, semantic troubleshooting structure, manual styling with CSS, and static HTML output publishing.
+This project is a structured DITA-based documentation set that delivers solutions for common technical issues users frequently encounter. It showcases custom domain specialization, semantic troubleshooting structure, manual styling with CSS, and static HTML output publishing.
 
 The goal is to provide a **realistic and reusable DITA solution** that emphasizes semantic content architecture, maintainability, and clarity—especially for technical writing and user support scenarios.
 
