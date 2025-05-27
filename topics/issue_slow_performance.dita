@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//Nena//DTD Troubleshooting Topic/EN" "../dtd/troubleshooting.dtd">
+<troubleshooting id="slow_performance">
+
+<title>Slow System Performance</title>
+
+<image href="../images/slow_system.jpg" width="500px" height="500px">
+<alt>Example image from Pixabay"</alt>
+</image>
+
+<problem>
+<title>Problem Statement</title>
+
+<p>Users have reported consistently slow system response times when launching or navigating through the application. The slowness manifests as delayed loading screens, unresponsive buttons, or prolonged task execution. These issues are observed across different user accounts and device types, suggesting the problem is not isolated to a particular environment.</p>
+<p>Performance degradation occurs even under minimal workload conditions and becomes more noticeable after prolonged usage or when multiple instances of the application are running simultaneously.</p>
+</problem>
+
+<cause>
+<title>Symptoms vs. Causes:</title>
+
+<p>Multiple factors can contribute to slow system performance. These include hardware limitations, software misconfiguration, excessive background processes, or compatibility issues. The following table outlines common symptoms and their potential underlying causes:</p>
+
+<table frame="all">
+<tgroup cols="2" colsep="1" rowsep="1">
+<colspec colname="a1" colwidth="50%"/>
+<colspec colname="a2" colwidth="50%"/>
+
+<thead>
+<row>
+<entry>Symptom</entry>
+<entry>Possible Cause</entry>
+</row>
+</thead>
+
+<tbody>
+<row>
+<entry>Slow launch time</entry>
+<entry>Insufficient memory (RAM)</entry>
+</row>
+
+<row>
+<entry>Delayed response to user actions</entry>
+<entry>High CPU usage from background tasks</entry>
+</row>
+
+<row>
+<entry>Freezes or stutters during operations</entry>
+<entry>Disk fragmentation or full storage</entry>
+</row>
+
+<row>
+<entry>Slow performance after updates</entry>
+<entry>Outdated drivers or software conflicts</entry>
+</row>
+
+<row>
+<entry>General lag on older machines</entry>
+<entry>System does not meet minimum requirements</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>For more details on compatible system configurations or diagnostic tools, refer to the <xref href="troubleshooting_reference.dita">Troubleshooting Reference page</xref>.</p>
+</cause>
+
+<remedy>
+<title>Possible Solutions</title>
+
+<p>To improve system performance, perform the following checks and corrective actions:</p>
+<ol>
+<li>Close unused applications running in the background.</li>
+<li>Ensure the system meets or exceeds the recommended hardware specifications.</li>
+<li>Update the application to the latest version to apply performance improvements and patches.</li>
+<li>Check for and install the latest operating system updates and drivers.</li>
+<li>Free up disk space by deleting temporary files and clearing caches.</li>
+<li>Restart the system to clear memory and reset active processes.</li>
+</ol>
+
+</remedy>
+
+</troubleshooting>

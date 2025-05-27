@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="trouleshooting_guide">
+
+<title>Troubleshooting Guide</title>
+<shortdesc>This reference guide provides a centralized list of error codes, log file locations, diagnostic tools, and key system definitions to assist in troubleshooting common issues across the application. It is intended to support task-based topics by offering detailed lookups and anchor points for error handling and resolution.</shortdesc>
+
+<refbody>
+
+<section>
+<title>Common Error Codes</title>
+<p>The following table lists frequently encountered error codes, their meanings, and suggested solutions. These codes appear during common operations such as login, syncing, or updates and serve as quick indicators for troubleshooting.</p>
+
+<table>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colname="a1" colwidth="20%"/>
+<colspec colname="a2" colwidth="40%"/>
+<colspec colname="a3" colwidth="40%"/>
+
+<thead>
+<row>
+<entry>Error Code</entry>
+<entry>Description	</entry>
+<entry>Suggested Fix</entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry>ERR1001</entry>
+<entry>Sync failed due to network timeout</entry>
+<entry>Check internet connection; retry sync</entry>
+</row>
+
+<row>
+<entry>ERR1002</entry>
+<entry>Authentication failed</entry>
+<entry>Re-enter credentials; verify account status</entry>
+</row>
+
+<row>
+<entry>ERR1003</entry>
+<entry>File conflict during sync</entry>
+<entry>Resolve conflict manually in sync panel</entry>
+</row>
+
+<row>
+<entry>ERR2001</entry>
+<entry>App update required</entry>
+<entry>Download and install the latest version</entry>
+</row>
+
+<row>
+<entry>ERR3004</entry>
+<entry>Insufficient permissions</entry>
+<entry>Request access from administrator</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table> 
+</section>
+
+<section>
+<title>System Log Locations</title>
+
+<ul>
+
+<li><b>Application Logs:</b>
+<ul>
+<li>Location: <codeph>C:\ProgramData\AppName\logs\app.log</codeph></li>
+<li>Description: Contains runtime events, errors, and warnings related to application performance.</li>
+</ul>
+</li>
+
+<li><b>Sync Logs:</b>
+<ul>
+<li>Location: <codeph>C:\Users\Troubleshooting\AppData\Local\AppName\sync.log</codeph></li>
+<li>Description: Records synchronization attempts, failures, and latency issues.</li>
+</ul>
+</li>
+
+<li><b>Authentication Logs:</b>
+<ul>
+<li>Location: <codeph>C:\ProgramData\AppName\logs\auth.log</codeph></li>
+<li>Description: Tracks login attempts, token validation, and account errors.</li>
+</ul>
+</li>
+
+</ul>
+</section>
+
+<section>
+<title>Configuration File Paths</title>
+
+<ul>
+<li><b>Global Config:</b><codeph> C:\ProgramData\AppName\config\settings.xml</codeph></li>
+<li><b>User Preferences:</b><codeph> C:\Users\Troubleshooting\AppData\Roaming\AppName\user.config</codeph></li>
+</ul>
+
+<p>These files define how the application behaves in various environments. Back up before making changes.</p>
+</section>
+
+<section>
+<title>Troubleshooting Tools</title>
+
+<ul>
+
+<li><b>Diagnostic Utility:</b>
+<ul>
+<li>Launch via: <codeph>Help &gt; Diagnostics &gt; Run Scan</codeph></li>
+<li>Function: Analyzes logs, config files, and sync performance for known issues.</li>
+</ul>
+</li>
+
+<li><b>System Resource Monitor:</b>
+<ul>
+<li>Use Task Manager or third-party tools to assess CPU and memory usage during slow performance incidents.</li>
+</ul>
+</li>
+</ul>
+</section>
+
+<section>
+<title>Related Anchor Points</title>
+
+<ul>
+<li><codeph>#sync-errors</codeph></li>
+<li><codeph>#auth-errors</codeph></li>
+<li><codeph>#config-locations</codeph></li>
+<li><codeph>#log-locations</codeph></li>
+</ul>
+</section>
+
+</refbody>
+</reference>

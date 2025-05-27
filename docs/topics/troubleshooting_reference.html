@@ -1,0 +1,127 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2025"><meta name="generator" content="DITA-OT"><meta name="description" content="This reference guide provides a centralized list of error codes, log file locations, diagnostic tools, and key system definitions to assist in troubleshooting common issues across the application. It is intended to support task-based topics by offering detailed lookups and anchor points for error handling and resolution."><title>Troubleshooting Guide</title><link rel="stylesheet" type="text/css" href="../styles/my-style.css"></head><body id="trouleshooting_guide"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+
+<h1 class="title topictitle1" id="ariaid-title1">Troubleshooting Guide</h1>
+
+
+<div class="body refbody"><p class="shortdesc">This reference guide provides a centralized list of error codes, log file locations, diagnostic tools, and key system definitions to assist in troubleshooting common issues across the application. It is intended to support task-based topics by offering detailed lookups and anchor points for error handling and resolution.</p>
+
+<section class="section"><h2 class="title sectiontitle">Common Error Codes</h2>
+
+<p class="p">The following table lists frequently encountered error codes, their meanings, and suggested solutions. These codes appear during common operations such as login, syncing, or updates and serve as quick indicators for troubleshooting.</p>
+
+<table class="table"><caption></caption><colgroup><col style="width:20%"><col style="width:40%"><col style="width:40%"></colgroup><thead class="thead">
+<tr class="row">
+<th class="entry colsep-1 rowsep-1" id="trouleshooting_guide__entry__1">Error Code</th>
+<th class="entry colsep-1 rowsep-1" id="trouleshooting_guide__entry__2">Description	</th>
+<th class="entry rowsep-1" id="trouleshooting_guide__entry__3">Suggested Fix</th>
+</tr>
+</thead><tbody class="tbody">
+
+<tr class="row">
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__1">ERR1001</td>
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__2">Sync failed due to network timeout</td>
+<td class="entry rowsep-1" headers="trouleshooting_guide__entry__3">Check internet connection; retry sync</td>
+</tr>
+
+<tr class="row">
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__1">ERR1002</td>
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__2">Authentication failed</td>
+<td class="entry rowsep-1" headers="trouleshooting_guide__entry__3">Re-enter credentials; verify account status</td>
+</tr>
+
+<tr class="row">
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__1">ERR1003</td>
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__2">File conflict during sync</td>
+<td class="entry rowsep-1" headers="trouleshooting_guide__entry__3">Resolve conflict manually in sync panel</td>
+</tr>
+
+<tr class="row">
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__1">ERR2001</td>
+<td class="entry colsep-1 rowsep-1" headers="trouleshooting_guide__entry__2">App update required</td>
+<td class="entry rowsep-1" headers="trouleshooting_guide__entry__3">Download and install the latest version</td>
+</tr>
+
+<tr class="row">
+<td class="entry colsep-1" headers="trouleshooting_guide__entry__1">ERR3004</td>
+<td class="entry colsep-1" headers="trouleshooting_guide__entry__2">Insufficient permissions</td>
+<td class="entry" headers="trouleshooting_guide__entry__3">Request access from administrator</td>
+</tr>
+
+</tbody></table> 
+</section>
+
+<section class="section"><h2 class="title sectiontitle">System Log Locations</h2>
+
+
+<ul class="ul">
+
+<li class="li"><strong class="ph b">Application Logs:</strong>
+<ul class="ul">
+<li class="li">Location: <code class="ph codeph">C:\ProgramData\AppName\logs\app.log</code></li>
+<li class="li">Description: Contains runtime events, errors, and warnings related to application performance.</li>
+</ul>
+</li>
+
+<li class="li"><strong class="ph b">Sync Logs:</strong>
+<ul class="ul">
+<li class="li">Location: <code class="ph codeph">C:\Users\Troubleshooting\AppData\Local\AppName\sync.log</code></li>
+<li class="li">Description: Records synchronization attempts, failures, and latency issues.</li>
+</ul>
+</li>
+
+<li class="li"><strong class="ph b">Authentication Logs:</strong>
+<ul class="ul">
+<li class="li">Location: <code class="ph codeph">C:\ProgramData\AppName\logs\auth.log</code></li>
+<li class="li">Description: Tracks login attempts, token validation, and account errors.</li>
+</ul>
+</li>
+
+</ul>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Configuration File Paths</h2>
+
+
+<ul class="ul">
+<li class="li"><strong class="ph b">Global Config:</strong><code class="ph codeph"> C:\ProgramData\AppName\config\settings.xml</code></li>
+<li class="li"><strong class="ph b">User Preferences:</strong><code class="ph codeph"> C:\Users\Troubleshooting\AppData\Roaming\AppName\user.config</code></li>
+</ul>
+
+<p class="p">These files define how the application behaves in various environments. Back up before making changes.</p>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Troubleshooting Tools</h2>
+
+
+<ul class="ul">
+
+<li class="li"><strong class="ph b">Diagnostic Utility:</strong>
+<ul class="ul">
+<li class="li">Launch via: <code class="ph codeph">Help &gt; Diagnostics &gt; Run Scan</code></li>
+<li class="li">Function: Analyzes logs, config files, and sync performance for known issues.</li>
+</ul>
+</li>
+
+<li class="li"><strong class="ph b">System Resource Monitor:</strong>
+<ul class="ul">
+<li class="li">Use Task Manager or third-party tools to assess CPU and memory usage during slow performance incidents.</li>
+</ul>
+</li>
+</ul>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Related Anchor Points</h2>
+
+
+<ul class="ul">
+<li class="li"><code class="ph codeph">#sync-errors</code></li>
+<li class="li"><code class="ph codeph">#auth-errors</code></li>
+<li class="li"><code class="ph codeph">#config-locations</code></li>
+<li class="li"><code class="ph codeph">#log-locations</code></li>
+</ul>
+</section>
+
+</div>
+</article></main></body></html>

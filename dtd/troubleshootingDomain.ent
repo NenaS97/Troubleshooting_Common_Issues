@@ -1,0 +1,22 @@
+<!ELEMENT troubleshooting (title, image?, problem, cause?, remedy+)>
+<!ATTLIST troubleshooting
+id ID #REQUIRED
+class CDATA "+ topic/topic troubleshooting/troubleshooting"
+>
+
+<!ELEMENT problem (title?, p+)>
+<!ATTLIST problem
+class CDATA "+ topic/section troubleshooting/problem"
+>
+
+<!ELEMENT cause (title?, (p | ul | ol | table)+)>
+<!ATTLIST cause
+class CDATA "+ topic/section troubleshooting/cause"
+outputclass CDATA #IMPLIED
+>
+
+<!ELEMENT remedy (title?, (p | ul | ol)+)>
+<!ATTLIST remedy
+class CDATA "+ topic/section troubleshooting/remedy"
+outputclass CDATA #IMPLIED
+>

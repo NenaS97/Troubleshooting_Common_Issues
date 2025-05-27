@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//Nena//DTD Troubleshooting Topic//EN" "../dtd/troubleshooting.dtd">
+<troubleshooting id="login_failure">
+
+<title>User Unable To Login</title>
+
+<image href="../images/login_error.jpg" width="500px" height="500px">
+<alt>Example image from Pixabay"</alt>
+</image>
+
+<problem>
+<title>Problem Statement</title>
+<p>Several users have reported being unable to access the system despite entering valid usernames and passwords. Upon attempting to log in, they are either redirected to an error page or receive an authentication failure message.</p>
+<p>The issue appears to affect users across multiple departments and is not limited to a specific browser or device, indicating a system-level disruption rather than isolated user error.</p>
+</problem>
+
+<cause>
+<title>Possible Causes</title>
+<p>The issue is likely due to a failure in the authentication service. Specific contributing factors may include:</p>
+<ul>
+<li>A temporary outage of the authentication service.</li>
+<li>An incomplete or failed service restart.</li>
+<li>Unscheduled maintenance that affected the availability of the login system.</li>
+<li>Network connectivity issues preventing communication with the directory server.</li>
+<li>Timeout errors observed in system authentication logs.</li>
+</ul>
+</cause>
+
+<remedy>
+<title>Possible Solutions</title>
+<p>To restore functionality and prevent recurrence, the following steps are recommended:</p>
+<ol>
+<li>Verify the current status of the authentication service.</li>
+<li>If the service is inactive, initiate a controlled restart following approved procedures.</li>
+<li>Perform test logins to confirm the issue is resolved.</li>
+<li>Perform test logins to confirm the issue is resolved.</li>
+<li>Monitor system logs and authentication activity for the next 24 hours to ensure stability.</li>
+<li>Set up automated alerts for authentication service outages to enable faster response in the future.</li>
+</ol>
+</remedy>
+
+</troubleshooting>

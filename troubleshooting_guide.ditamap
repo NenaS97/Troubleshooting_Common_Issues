@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map>
+
+<title>INDEX</title>
+
+<topicref href="topics/intro_troubleshooting.dita" navtitle="Introduction"/>
+<topicref href="topics/issue_login_failure.dita" navtitle="User Unable To Login"/>
+<topicref href="topics/issue_slow_performance.dita" navtitle="Slow System Performance"/>
+<topicref href="topics/issue_sync_errors.dita" navtitle="File Sync Failures"/>
+<topicref href="topics/troubleshooting_reference.dita" navtitle="Troubleshooting Guide"/>
+
+</map>
