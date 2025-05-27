@@ -55,7 +55,7 @@ Nested list support was also implemented:
 
 ---
 
-## 🛠Specialization Details
+## Specialization Details
 
 This project includes **manual domain specialization** to support structured troubleshooting use cases.
 
