@@ -128,7 +128,7 @@ A minimal custom CSS file was developed to enhance the look and feel of the HTML
 
 ## View the Live Site
 
-You can view the live HTML version of this guide at:
+You can view the live HTML version of this documentation at:
 
 👉 **[https://nenas97.github.io/Troubleshooting_Common_Issues/]**
 
